@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("../img/hot-air-balloon-736879.jpg");
+  background-image: url("../img/moon.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,4 +155,11 @@ input, select {
   color: #fff;
   text-decoration: line-through;
   font-style: italic;
+}
+
+@media(max-width: 1280px){
+  body{
+    background-image: url("../img/moon-7357007_1280.jpg");
+    background-size: auto;
+  }
 }
