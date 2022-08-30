@@ -189,6 +189,11 @@ input, select {
   color: #333;
 }
 
+.relogio-completo {
+  display: flex;
+  justify-content: center;
+}
+
 @media(max-width: 1280px){
   body{
     background-image: url("../img/night-913046_1920.jpg");
